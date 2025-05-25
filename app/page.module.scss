@@ -1,0 +1,39 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background: white;
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image: 
+    linear-gradient(to right, #cad5e2 1px, transparent 1px),
+    linear-gradient(to bottom, #cad5e2 1px, transparent 1px);
+  background-size: 80px 60px; // Change these values to adjust grid size
+  background-position: center;
+  // The mask will be applied via inline styles
+}
+
+.heroText {
+  position: relative;
+  z-index: 2;
+  color: black;
+  text-align: center;
+  padding-top: 30vh;
+
+  font-size: 64px;
+  line-height: 66px;
+
+  h1 {
+    font-weight: 500;
+    margin-bottom: 0.5em;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}

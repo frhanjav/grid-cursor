@@ -2,19 +2,38 @@
 import styles from './page.module.scss';
 import { motion } from 'motion/react';
 import useMousePosition from './utils/useMousePosition';
+import useSmoothMousePosition from './utils/useSmoothMousePosition';
 
 export default function Home() {
 
-  const { x, y } = useMousePosition();
+  const { x, y } = useSmoothMousePosition(0.15);
 
   return (
     <main className={styles.hero}>
       {/* Grid that gets revealed by cursor */}
-      <div
+      <motion.div
         className={styles.grid}
         style={{
-          maskImage: `radial-gradient(circle 150px at ${x}px ${y}px, black 0%, black 100px, transparent 150px)`,
-          WebkitMaskImage: `radial-gradient(circle 150px at ${x}px ${y}px, black 0%, black 100px, transparent 150px)`,
+          maskImage: `radial-gradient(circle at ${x}px ${y}px, 
+          black 0%, 
+          black 60px, 
+          rgba(0,0,0,0.8) 100px,
+          rgba(0,0,0,0.3) 140px,
+          transparent 200px
+        )`,
+        WebkitMaskImage: `radial-gradient(circle at ${x}px ${y}px, 
+          black 0%, 
+          black 60px, 
+          rgba(0,0,0,0.8) 100px,
+          rgba(0,0,0,0.3) 140px,
+          transparent 200px
+        )`,
+        }}
+        transition={{
+          type: "spring",
+          damping: 30,
+          stiffness: 200,
+          mass: 0.8
         }}
       />
 

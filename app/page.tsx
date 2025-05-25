@@ -4,7 +4,7 @@ import useSmoothMousePosition from './utils/useSmoothMousePosition';
 
 export default function Home() {
 
-  const { x, y } = useSmoothMousePosition(0.15);
+  const { x, y } = useSmoothMousePosition();
 
   return (
     <main className={styles.hero}>
@@ -13,19 +13,23 @@ export default function Home() {
         className={styles.grid}
         style={{
           maskImage: `radial-gradient(circle at ${x}px ${y}px, 
-          black 0%, 
-          black 60px, 
-          rgba(0,0,0,0.8) 100px,
-          rgba(0,0,0,0.3) 140px,
-          transparent 200px
-        )`,
-        WebkitMaskImage: `radial-gradient(circle at ${x}px ${y}px, 
-          black 0%, 
-          black 60px, 
-          rgba(0,0,0,0.8) 100px,
-          rgba(0,0,0,0.3) 140px,
-          transparent 200px
-        )`,
+            black 0%, 
+            black 60px, 
+            rgba(0,0,0,0.9) 105px,
+            rgba(0,0,0,0.6) 165px,
+            rgba(0,0,0,0.3) 225px,
+            rgba(0,0,0,0.1) 270px,
+            transparent 330px
+          )`,
+          WebkitMaskImage: `radial-gradient(circle at ${x}px ${y}px, 
+            black 0%, 
+            black 60px, 
+            rgba(0,0,0,0.9) 105px,
+            rgba(0,0,0,0.6) 165px,
+            rgba(0,0,0,0.3) 225px,
+            rgba(0,0,0,0.1) 270px,
+            transparent 330px
+          )`,
         }}
       />
 

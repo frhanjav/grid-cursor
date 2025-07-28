@@ -4,7 +4,7 @@
 
 ![Project Demo](https://media.frhn.me/grid.gif)
 
-clone of eternal hero section [eternal](https://www.eternal.com/)
+Inspired by eternal's hero section [eternal](https://www.eternal.com/)
 
 ## To run locally
 

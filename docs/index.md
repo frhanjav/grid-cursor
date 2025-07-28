@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project is a minimal interactive hero section built with Next.js and React that creates a visually engaging "spotlight" effect on a grid background, following the user's mouse cursor. This is the clone of eternal's (which powers blinkit and zomato) [hero section](https://www.eternal.com/) .
+This project is a minimal interactive hero section built with Next.js and React that creates a visually engaging "spotlight" effect on a grid background, following the user's mouse cursor. Inspired by eternal's (which powers blinkit and zomato) [hero section](https://www.eternal.com/) .
 
 - The code is modular, with clear separation of concerns (mouse tracking, animation, styling).
 - The effect is achieved entirely with CSS and JavaScript, no external graphics or canvas.

@@ -2,9 +2,7 @@
 
 ## [Live Demo](https://grid.frhn.me/)
 
-<div style="text-align: center;">
-  <video src="https://media.frhn.me/socialgrid.mp4" controls autoplay loop muted width="600"></video>
-</div>
+![Project Demo](https://media.frhn.me/grid.gif)
 
 clone of eternal hero section [eternal](https://www.eternal.com/)
 

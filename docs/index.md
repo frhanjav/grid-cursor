@@ -1,6 +1,8 @@
 # Grid Cursor Project Documentation
 
-![Project Demo](https://media.frhn.me/socialgrid.mp4)
+<div style="text-align: center;">
+  <video src="https://media.frhn.me/socialgrid.mp4" controls autoplay loop muted width="600"></video>
+</div>
 
 ## Overview
 

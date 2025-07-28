@@ -1,4 +1,4 @@
-## [Live Demo](https://eternal-grid.leverage.blog)
+## [Live Demo](https://grid.frhn.me/)
 
 clone of eternal hero section [eternal](https://www.eternal.com/)
 
@@ -19,5 +19,6 @@ bun dev
 ## Stack
 
 - Next.js
+- React
 - Motion (prev Framer Motion)
 - Sass
